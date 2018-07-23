@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Ussdapp</string>
+    <string name="item_desc" formatted="false">Click this if your network provider is %s</string>
+    <string name="item_desc_generic" formatted="false">Click this if you are testing in Emulator</string>
+    <string name="response" formatted="false">Response received from USSD: "%s"</string>
+
+    <string name="permission_location">We need to read your location in order to provide you with the best offers available in your region. We value your privacy! We will never sell or misuse your personal information.</string>
+    <string name="permission_phone">We want you to have the best experience possible. We would like to auto fetch your phone number from your device. We would never violate your personal information</string>
+    <string name="permission_accessibility">The app requires accessibility permission in order to interpret the incoming USSD messages for the device.</string>
+
+
+    <string name="network_1">Emulator</string>
+    <string name="network_2">Vodafone</string>
+    <string name="network_3">Jio</string>
+    <string name="network_4">Airtel</string>
+    <string name="network_5">Tata Docomo</string>
+    <string name="network_6">BSNL</string>
+    <string name="network_7">IDEA</string>
+
+    <string-array name="network_list">
+        <item>@string/network_1</item>
+        <item>@string/network_2</item>
+        <item>@string/network_3</item>
+        <item>@string/network_4</item>
+        <item>@string/network_5</item>
+        <item>@string/network_6</item>
+        <item>@string/network_7</item>
+    </string-array>
+
+
+    <string name="ussd_1">*333</string>
+    <string name="ussd_2">*141</string>
+    <string name="ussd_3">*1</string>
+    <string name="ussd_4">*282</string>
+    <string name="ussd_5">*191</string>
+    <string name="ussd_6">*124</string>
+    <string name="ussd_7">*121</string>
+
+
+</resources>
